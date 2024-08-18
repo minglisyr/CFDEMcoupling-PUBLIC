@@ -17,7 +17,9 @@ cd OpenFOAM
 git clone https://github.com/OpenFOAM/OpenFOAM-5.x.git
 git clone https://github.com/OpenFOAM/ThirdParty-5.x.git
 cd OpenFOAM-5.x
-sudo apt-get install build-essential flex bison cmake zlib1g-dev libboost-system-dev libboost-thread-dev libopenmpi-dev openmpi-bin gnuplot libreadline-dev libncurses-dev libxt-dev libscotch-dev libptscotch-dev libvtk9-dev paraview
+sudo apt-get install build-essential flex bison cmake zlib1g-dev libboost-system-dev libboost-thread-dev libopenmpi-dev openmpi-bin gnuplot libreadline-dev libncurses-dev libxt-dev libscotch-dev libptscotch-dev paraview
+#sudo apt install vtk
+#sudo apt install libvtk9-dev
 sudo apt install python3-pip
 pip3 install numpy
 sudo apt update
