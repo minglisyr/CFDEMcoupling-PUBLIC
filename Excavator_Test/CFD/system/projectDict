@@ -1,0 +1,75 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+|       o          |                                                          |
+|    o     o       | HELYX-OS                                                  |
+|   o   O   o      | Version: v2.4.0                                           |
+|    o     o       | Web:     http://www.engys.com                            |
+|       o          |                                                          |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version 2.0;
+    format ascii;
+    class dictionary;
+    location system;
+    object projectDict;
+}
+
+    runDict
+    {
+        serverState
+        {
+            command RUN_CASE;
+            solverState ERROR;
+        }
+
+        queue false;
+        queueParameters
+        {
+            numberOfNodes 1;
+            cpuPerNode 1;
+            timeout 500;
+            feature ;
+            nodeNames ;
+        }
+
+        logFile pimpleFoam.log;
+        hostfilePath ;
+        multiMachine false;
+        sshParameters
+        {
+            user ;
+            sshauth SSH_PWD;
+            sshkey ;
+            sshpwd ;
+            remoteBaseDir ;
+            remoteBaseDirParent ;
+            paraviewDir ;
+            applicationDir ;
+            validForRemoteChooser true;
+            openFoamDir ;
+            host ;
+            port 22;
+        }
+
+        remote false;
+    }
+
+    meshInfo
+    {
+        valid true;
+        faceZones 0;
+        cellZones 0;
+        cells 486513;
+        points 607971;
+        faces 1578011;
+        internalFaces 1414173;
+        boundaryPatches 8;
+        pointZones 0;
+        hexahedra 453314;
+        prisms 6489;
+        wedges 0;
+        pyramids 0;
+        tetWedges 32;
+        tetrahedra 15;
+        polyhedra 26663;
+    }

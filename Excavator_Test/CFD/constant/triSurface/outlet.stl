@@ -1,0 +1,114 @@
+solid Exported_from_Blender-2.76_(sub_0)
+ facet normal 0.0995037 0.000833681 0.995037
+  outer loop
+   vertex 2.2713 0 1.27914
+   vertex 2.27141 -0.100451 1.27922
+   vertex 2.27152 -0.200902 1.27929
+  endloop
+ endfacet
+ facet normal 0.447213 0.00114425 0.894427
+  outer loop
+   vertex 2.27108 0.200902 1.279
+   vertex 2.27119 0.100451 1.27907
+   vertex 2.2713 0 1.27914
+  endloop
+ endfacet
+ facet normal -0.000816579 0.000725382 0.999999
+  outer loop
+   vertex 2.42776 0.301353 1.27905
+   vertex 2.27097 0.301353 1.27892
+   vertex 2.27108 0.200902 1.279
+  endloop
+ endfacet
+ facet normal -0.000809737 0.000188467 1
+  outer loop
+   vertex 2.74136 0.200902 1.27933
+   vertex 2.74133 0.301353 1.27931
+   vertex 2.58454 0.301353 1.27918
+  endloop
+ endfacet
+ facet normal -0.000816585 0.000725391 0.999999
+  outer loop
+   vertex 2.58454 0.301353 1.27918
+   vertex 2.42776 0.301353 1.27905
+   vertex 2.27108 0.200902 1.279
+  endloop
+ endfacet
+ facet normal 0 0.000726878 1
+  outer loop
+   vertex 2.27108 0.200902 1.279
+   vertex 2.2713 0 1.27914
+   vertex 2.27152 -0.200902 1.27929
+  endloop
+ endfacet
+ facet normal -0.00011493 0.000726158 1
+  outer loop
+   vertex 2.27152 -0.200902 1.27929
+   vertex 2.27163 -0.301353 1.27936
+   vertex 2.42826 -0.301353 1.27938
+  endloop
+ endfacet
+ facet normal -0 1 0
+  outer loop
+   vertex 2.42826 -0.301353 1.27938
+   vertex 2.58488 -0.301353 1.2794
+   vertex 2.7415 -0.301353 1.27942
+  endloop
+ endfacet
+ facet normal 0.976187 0.000312275 0.21693
+  outer loop
+   vertex 2.74147 -0.200902 1.2794
+   vertex 2.74144 -0.100451 1.27938
+   vertex 2.74142 0 1.27936
+  endloop
+ endfacet
+ facet normal -0.000118355 0.000179165 1
+  outer loop
+   vertex 2.42826 -0.301353 1.27938
+   vertex 2.7415 -0.301353 1.27942
+   vertex 2.74147 -0.200902 1.2794
+  endloop
+ endfacet
+ facet normal -0.00011455 0.000726752 1
+  outer loop
+   vertex 2.27108 0.200902 1.279
+   vertex 2.27152 -0.200902 1.27929
+   vertex 2.42826 -0.301353 1.27938
+  endloop
+ endfacet
+ facet normal -0.000699616 0.000360379 1
+  outer loop
+   vertex 2.74136 0.200902 1.27933
+   vertex 2.58454 0.301353 1.27918
+   vertex 2.27108 0.200902 1.279
+  endloop
+ endfacet
+ facet normal 0 0.000179198 1
+  outer loop
+   vertex 2.74142 0 1.27936
+   vertex 2.74139 0.100451 1.27934
+   vertex 2.74136 0.200902 1.27933
+  endloop
+ endfacet
+ facet normal -0.000120068 0.000184505 1
+  outer loop
+   vertex 2.42826 -0.301353 1.27938
+   vertex 2.74147 -0.200902 1.2794
+   vertex 2.74142 0 1.27936
+  endloop
+ endfacet
+ facet normal -0.000699616 0.000543658 1
+  outer loop
+   vertex 2.74136 0.200902 1.27933
+   vertex 2.27108 0.200902 1.279
+   vertex 2.42826 -0.301353 1.27938
+  endloop
+ endfacet
+ facet normal -0.000114931 0.000179166 1
+  outer loop
+   vertex 2.42826 -0.301353 1.27938
+   vertex 2.74142 0 1.27936
+   vertex 2.74136 0.200902 1.27933
+  endloop
+ endfacet
+endsolid Exported_from_Blender-2.76_(sub_0)
