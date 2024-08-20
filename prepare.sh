@@ -24,7 +24,7 @@ sudo apt install python3-pip
 pip3 install numpy
 sudo apt update
 sudo apt upgrade
-echo -e "\nexport WM_NCOMPPROCS=12\nsource \$HOME/OpenFOAM/OpenFOAM-5.x/etc/bashrc" >> ~/.bashrc
+echo -e "\nexport WM_NCOMPPROCS=4\nsource \$HOME/OpenFOAM/OpenFOAM-5.x/etc/bashrc" >> ~/.bashrc
 source ~/.bashrc
 cd $WM_PROJECT_DIR
 ./Allwmake
