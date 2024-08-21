@@ -21,7 +21,7 @@ sudo apt-get install build-essential flex bison cmake zlib1g-dev libboost-system
 #sudo apt install vtk
 #sudo apt install libvtk9-dev
 sudo apt install python3-pip
-pip3 install numpy
+#pip3 install numpy
 sudo apt update
 sudo apt upgrade
 echo -e "\nexport WM_NCOMPPROCS=4\nsource \$HOME/OpenFOAM/OpenFOAM-5.x/etc/bashrc" >> ~/.bashrc
