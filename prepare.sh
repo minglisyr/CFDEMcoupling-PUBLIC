@@ -43,6 +43,7 @@ export CFDEM_bashrc=$CFDEM_PROJECT_DIR/src/lagrangian/cfdemParticle/etc/bashrc
 export CFDEM_LIGGGHTS_SRC_DIR=$HOME/LIGGGHTS/LIGGGHTS-PUBLIC/src
 export CFDEM_LIGGGHTS_MAKEFILE_NAME=auto
 export CFDEM_LPP_DIR=$HOME/LIGGGHTS/lpp/src
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/LIGGGHTS/LIGGGHTS-PUBLIC/lib/vtk/build/lib
 . $CFDEM_bashrc
 #================================================#
 EOF
