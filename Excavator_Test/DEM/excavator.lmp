@@ -144,5 +144,5 @@
 	fix     	cfd 	all couple/cfd couple_every 10 mpi #50
 	fix     	cfd2 	all couple/cfd/force
 
-	run 0 #<------Wichtig, um fix cfd und fix cfd2 zu aktivieren
+	run 0 #<------Important to activate fix cfd and fix cfd2
 #################
