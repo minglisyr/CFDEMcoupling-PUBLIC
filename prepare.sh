@@ -1,7 +1,7 @@
 sudo apt update
 sudo apt upgrade
-sudo apt-get install ffmpeg
-sudo apt-get install git-core
+sudo apt-get install -y ffmpeg
+sudo apt-get install -y git
 cd $HOME
 mkdir CFDEM
 cd CFDEM
@@ -17,12 +17,14 @@ cd OpenFOAM
 git clone https://github.com/OpenFOAM/OpenFOAM-5.x.git
 git clone https://github.com/OpenFOAM/ThirdParty-5.x.git
 cd OpenFOAM-5.x
-git checkout 538044ac05c4672b37c7df607dca1116fa88df88
+#git checkout 538044ac05c4672b37c7df607dca1116fa88df88
 
-sudo apt-get install build-essential flex bison cmake zlib1g-dev libboost-system-dev libboost-thread-dev libopenmpi-dev openmpi-bin gnuplot libreadline-dev libncurses-dev libxt-dev libscotch-dev libptscotch-dev paraview
-#sudo apt install python3-pip
-#sudo apt install vtk
-#sudo apt install libvtk9-dev
+sudo apt-get install -y build-essential flex bison cmake zlib1g-dev libboost-system-dev libboost-thread-dev libopenmpi-dev openmpi-bin gnuplot \
+                    libreadline-dev libncurses-dev libxt-dev libscotch-dev libptscotch-dev paraview
+
+#sudo apt install -y python3-pip
+#sudo apt install -y vtk
+#sudo apt install -y libvtk9-dev
 #pip3 install numpy
 
 sudo apt update
