@@ -1,5 +1,5 @@
 sudo apt update
-sudo apt upgrade
+sudo apt upgrade -y
 sudo apt-get install -y ffmpeg
 sudo apt-get install -y git
 cd $HOME
@@ -28,7 +28,7 @@ sudo apt-get install -y build-essential flex bison cmake zlib1g-dev libboost-sys
 #pip3 install numpy
 
 sudo apt update
-sudo apt upgrade
+sudo apt upgrade -y
 echo -e "\nexport WM_NCOMPPROCS=4\nsource \$HOME/OpenFOAM/OpenFOAM-5.x/etc/bashrc" >> ~/.bashrc
 source ~/.bashrc
 cd $WM_PROJECT_DIR
